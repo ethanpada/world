@@ -45,7 +45,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #ff7781; outline-offs
 .main-nav a.active::after { content: ""; position: absolute; width: 5px; height: 5px; border-radius: 50%; background: var(--red); left: calc(50% - 2px); bottom: -11px; }
 .header-cta { height: 43px; display: flex; align-items: center; gap: 18px; padding: 0 16px; border: 1px solid rgba(255,255,255,.25); border-radius: 3px; font-size: 13px; font-weight: 700; transition: background .2s, border-color .2s; }
 .header-cta:hover { background: var(--deep-red); border-color: var(--red); }
-.header-cta span { color: #ff6571; }
+.header-cta span { color: #072eda; }
 .menu-button { display: none; }
 
 .hero {
@@ -77,10 +77,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid #ff7781; outline-offs
 .button { min-height: 50px; display: inline-flex; align-items: center; justify-content: center; gap: 21px; border-radius: 3px; padding: 0 18px; font-size: 13px; font-weight: 800; transition: background .2s, transform .2s; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { background: var(--red); color: white; }
-.button-primary:hover { background: #fa4251; }
+.button-primary:hover { background: #b90716; }
 .button-primary span { font-size: 17px; }
 .text-link { font-size: 13px; font-weight: 700; border-bottom: 1px solid rgba(255,255,255,.36); padding: 8px 0; }
-.text-link span { color: #fa6670; margin-left: 10px; }
+.text-link span { color: #8b0912; margin-left: 10px; }
 .hero-note { display: flex; align-items: center; gap: 11px; margin-top: 43px; color: #a99798; font-size: 11px; }
 .hero-note strong { color: var(--white); font-weight: 700; }
 .note-icon { width: 25px; height: 25px; display: grid; place-items: center; border-radius: 50%; background: rgba(228,43,59,.16); color: #ff6974; font-weight: 800; }
