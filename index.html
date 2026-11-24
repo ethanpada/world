@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="VoltEdge Engineering provides electrical design, power systems, and automation services."
+      content="Ethan's House Wiring and Repairs provides house wiring, electrical repairs, fault finding, and lighting services. Contact Ethan for an enquiry."
     />
-    <title>VoltEdge Engineering</title>
+    <meta name="theme-color" content="#10090a" />
+    <title>Ethan's House Wiring and Repairs | Home Electrical Services</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#" aria-label="VoltEdge Engineering home">
+      <a class="brand" href="#home" aria-label="Ethan's House Wiring and Repairs home">
         <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32">
-            <path d="M18.4 2 7 17.2h8L13.7 30 25 13.6h-8L18.4 2Z" />
-          </svg>
+          <svg viewBox="0 0 32 32"><path d="M18.4 2 7 17.2h8L13.7 30 25 13.6h-8L18.4 2Z" /></svg>
         </span>
-        <span>Volt<span>Edge</span></span>
+        <span class="brand-name">Ethan's <span>Electrical</span></span>
       </a>
 
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">
@@ -35,162 +34,135 @@
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
         <a class="active" href="#home">Home</a>
         <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a class="header-cta" href="#contact">Get a quote <span aria-hidden="true">↗</span></a>
+      <a class="header-cta" href="tel:0739628485">Call Ethan <span aria-hidden="true">↗</span></a>
     </header>
 
     <main>
       <section class="hero" id="home">
-        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> Electrical engineering, redefined</p>
-          <h1>Powering progress.<br /><em>Building the future.</em></h1>
+          <p class="eyebrow"><span></span> House wiring &amp; electrical repairs</p>
+          <h1>Electrical help<br /><em>for your home.</em></h1>
           <p class="hero-description">
-            Innovative electrical engineering solutions designed for reliability,
-            efficiency, and long-term performance.
+            Need wiring work or dealing with an electrical problem? Tell Ethan
+            what's going on and ask about the next steps.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore our work <span>→</span></a>
-            <a class="text-link" href="#services">View services <span>↗</span></a>
+            <a class="button button-primary" href="tel:0739628485">Call 073 962 8485 <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">i</span>
+            <span>Speak directly with <strong>Ethan, the owner</strong></span>
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Electrical power engineering facility">
-          <div class="visual-glow"></div>
-          <svg class="circuit circuit-one" viewBox="0 0 240 180" aria-hidden="true">
-            <path d="M0 48h54l28 28h54l30-30h74M0 132h92l24-24h124" />
-            <circle cx="54" cy="48" r="5" /><circle cx="82" cy="76" r="5" />
-            <circle cx="136" cy="76" r="5" /><circle cx="166" cy="46" r="5" />
-          </svg>
-          <div class="facility">
-            <div class="facility-top">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <div class="transformer transformer-one">
-              <div class="coil"></div><div class="coil"></div><div class="coil"></div>
-            </div>
-            <div class="transformer transformer-two">
-              <div class="coil"></div><div class="coil"></div><div class="coil"></div>
-            </div>
-            <div class="bus-line"></div>
-            <div class="base"></div>
-          </div>
-          <div class="status-card">
-            <div class="status-icon">✓</div>
-            <div><strong>Grid Operational</strong><span>99.98% uptime</span></div>
-          </div>
-          <div class="power-card">
-            <span>System load</span>
-            <strong>42.8 <small>MW</small></strong>
-            <div class="power-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          </div>
-        </div>
-
-        <div class="hero-stats">
-          <div><strong>250+</strong><span>Projects delivered</span></div>
-          <div><strong>18</strong><span>Industry awards</span></div>
-          <div><strong>99.8%</strong><span>Client satisfaction</span></div>
-        </div>
+        <figure class="hero-visual">
+          <img
+            class="hero-photo"
+            src="assets/electrician-at-work.jpg"
+            alt="Electrician working on an electrical panel"
+            fetchpriority="high"
+          />
+          <figcaption class="visual-label"><span></span> House wiring &amp; repairs</figcaption>
+        </figure>
       </section>
 
-      <section class="services" id="services">
+      <section class="services section" id="services">
         <div class="section-heading">
           <div>
-            <p class="eyebrow dark"><span></span> What we do</p>
-            <h2>Engineering solutions<br />for a connected world</h2>
+            <p class="eyebrow"><span></span> How I can help</p>
+            <h2>Electrical work<br />for your home.</h2>
           </div>
-          <p>From concept to commissioning, we deliver safe, efficient systems built to perform.</p>
+          <p>Not sure where to start? Describe the job to Ethan and ask if he can help.</p>
         </div>
 
         <div class="service-grid">
-          <article class="service-card featured">
+          <article class="service-card">
             <span class="card-number">01</span>
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48"><path d="M27 3 12 27h10l-2 18 16-25H26l1-17Z" /></svg>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M8 22 24 9l16 13v17H8V22Z" /><path d="M19 39V26h10v13M5 22l19-16 19 16" /></svg>
             </div>
-            <h3>Power Systems</h3>
-            <p>Reliable distribution and generation systems engineered for maximum uptime.</p>
-            <a href="#contact" aria-label="Learn about power systems">Learn more <span>→</span></a>
+            <h3>House Wiring</h3>
+            <p>Need wiring work at home? Get in touch to talk through what you need done.</p>
+            <a href="#contact">Enquire about wiring <span aria-hidden="true">→</span></a>
           </article>
           <article class="service-card">
             <span class="card-number">02</span>
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="32" rx="3"/><circle cx="24" cy="24" r="8"/><path d="M24 16v16M16 24h16"/></svg>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M27 5 12 26h11l-2 17 16-25H26l1-13Z" /></svg>
             </div>
-            <h3>Automation & Controls</h3>
-            <p>Smart control systems that improve operations, visibility, and efficiency.</p>
-            <a href="#contact" aria-label="Learn about automation and controls">Learn more <span>→</span></a>
+            <h3>Repairs &amp; Fault Finding</h3>
+            <p>Tell Ethan what you've noticed and ask about a repair or fault finding.</p>
+            <a href="#contact">Ask about a repair <span aria-hidden="true">→</span></a>
           </article>
           <article class="service-card">
             <span class="card-number">03</span>
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48"><path d="M24 4c11 0 20 9 20 20S35 44 24 44 4 35 4 24 13 4 24 4Z"/><path d="M24 11v26M17 24h14"/></svg>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M17 29c-3-2-5-6-5-10a12 12 0 1 1 24 0c0 4-2 8-5 10-2 2-3 4-3 6h-8c0-2-1-4-3-6ZM20 40h8M21 45h6M20 18a4 4 0 0 1 8 0" /></svg>
             </div>
-            <h3>Renewable Energy</h3>
-            <p>Scalable solar, storage, and hybrid solutions for a cleaner energy future.</p>
-            <a href="#contact" aria-label="Learn about renewable energy">Learn more <span>→</span></a>
+            <h3>Lighting &amp; Fittings</h3>
+            <p>Describe the lighting or fitting work you need and ask if Ethan can help.</p>
+            <a href="#contact">Ask about fittings <span aria-hidden="true">→</span></a>
           </article>
         </div>
       </section>
 
-      <section class="projects" id="projects">
-        <div class="section-heading project-heading">
-          <div>
-            <p class="eyebrow"><span></span> Selected work</p>
-            <h2>Projects that move<br />industries forward</h2>
-          </div>
-          <a class="button button-outline" href="#contact">View all projects <span>→</span></a>
+      <section class="about section" id="about">
+        <div class="about-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M18.4 2 7 17.2h8L13.7 30 25 13.6h-8L18.4 2Z" /></svg>
         </div>
-        <div class="project-grid">
-          <article class="project-card project-main">
-            <div class="project-art solar-art">
-              <div class="sun"></div>
-              <div class="panel-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-              <div class="project-tag">Solar</div>
-            </div>
-            <div class="project-info"><div><span>Renewable energy · 2025</span><h3>North Valley Solar Farm</h3></div><b>+12 MW</b></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art industrial-art">
-              <div class="industrial-line"></div><div class="industrial-tower"></div>
-              <div class="project-tag">Industry</div>
-            </div>
-            <div class="project-info"><div><span>Industrial · 2025</span><h3>Atlas Manufacturing</h3></div><b>18%</b></div>
-          </article>
+        <div class="about-copy">
+          <p class="eyebrow"><span></span> A personal service</p>
+          <h2>Talk directly<br /><em>with Ethan.</em></h2>
+          <p>
+            Ethan Padayachee owns this business. When you call or email, you can
+            explain the issue directly and ask about the work and next steps.
+          </p>
+          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="about-detail">
+          <span class="detail-line"></span>
+          <strong>ETHAN PADAYACHEE</strong>
+          <span>Owner &amp; contact</span>
+          <a href="tel:0739628485">073 962 8485 <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
-      <section class="about" id="about">
-        <div class="about-mark">
-          <svg viewBox="0 0 32 32"><path d="M18.4 2 7 17.2h8L13.7 30 25 13.6h-8L18.4 2Z"/></svg>
+      <section class="contact section" id="contact">
+        <div class="contact-heading">
+          <p class="eyebrow"><span></span> Get in touch</p>
+          <h2>Let's talk about<br /><em>your electrical needs.</em></h2>
+          <p>Unsure what the issue is? That's okay. Tell Ethan what you've noticed and ask whether he can help.</p>
         </div>
-        <p class="eyebrow dark"><span></span> Why VoltEdge</p>
-        <h2>We engineer with purpose.<br />We deliver with precision.</h2>
-        <p>Our team combines technical expertise, practical experience, and an uncompromising commitment to safety.</p>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="contact-main">
-          <p class="eyebrow"><span></span> Start a project</p>
-          <h2>Have a challenge?<br /><em>Let’s solve it.</em></h2>
+        <div class="contact-options">
+          <a class="contact-option" href="tel:0739628485">
+            <span class="contact-icon" aria-hidden="true">↗</span>
+            <span><small>Call Ethan</small><strong>073 962 8485</strong></span>
+            <span class="option-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="contact-option" href="mailto:ethanpadayachee@gmail.com">
+            <span class="contact-icon" aria-hidden="true">@</span>
+            <span><small>Email</small><strong>ethanpadayachee@gmail.com</strong></span>
+            <span class="option-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
-        <div class="contact-details">
-          <a href="mailto:hello@voltedge.com">hello@voltedge.com</a>
-          <a href="tel:+15550148290">+1 555 014 8290</a>
-          <span>Denver, Colorado</span>
-        </div>
-        <a class="button button-primary" href="mailto:hello@voltedge.com">Talk to our team <span>→</span></a>
       </section>
     </main>
 
     <footer>
-      <a class="brand" href="#"><span class="brand-mark"><svg viewBox="0 0 32 32"><path d="M18.4 2 7 17.2h8L13.7 30 25 13.6h-8L18.4 2Z"/></svg></span><span>Volt<span>Edge</span></span></a>
-      <p>© 2026 VoltEdge Engineering</p>
-      <div><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M18.4 2 7 17.2h8L13.7 30 25 13.6h-8L18.4 2Z" /></svg>
+        </span>
+        <span class="brand-name">Ethan's <span>Electrical</span></span>
+      </a>
+      <p>Ethan's House Wiring and Repairs</p>
+      <a class="footer-contact" href="tel:0739628485">073 962 8485 <span aria-hidden="true">↗</span></a>
     </footer>
 
     <script src="script.js"></script>
